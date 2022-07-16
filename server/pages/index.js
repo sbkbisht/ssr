@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./index.module.css";
 import Card from "./Card";
 // import data from "./API/data.json";
-import { initStore } from "../store";
+import { initStore, addItem, initialCards } from "../store";
 
 class Index extends React.Component {
     static async getInitialProps ({ store }) {
