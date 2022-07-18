@@ -6,9 +6,9 @@ import Card from "./Card";
 import { initStore, addItem, initialCards } from "../store";
 
 class Index extends React.Component {
-    static async getInitialProps ({ store }) {
-        return store.dispatch(initialCards());
-    }
+  static async getInitialProps({ store }) {
+    return store.dispatch(initialCards());
+  }
   render() {
     return (
       <div className={styles.app}>
